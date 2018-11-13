@@ -5,9 +5,9 @@
   "description": "Qt bindings for Node.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/arturadib/node-qt.git"
+    "url": "git://github.com/payam-int/node-qt.git"
   },
-  "homepage": "http://github.com/arturadib/node-qt",
+  "homepage": "git://github.com/payam-int/node-qt.git",
   "main": "./lib/qt.js",
   "keywords": [
     "qt",
@@ -24,8 +24,10 @@
     "shelljs": "0.0.5pre4"
   },
   "scripts": {
-    "install": "node-gyp rebuild"
+    "install": "./node_modules/.bin/electron-rebuild"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron-rebuild": "^1.8.2",
+  },
   "optionalDependencies": {}
 }
