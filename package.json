@@ -27,7 +27,7 @@
     "install": "./node_modules/.bin/electron-rebuild"
   },
   "devDependencies": {
-    "electron-rebuild": "^1.8.2",
+    "electron-rebuild": "^1.8.2"
   },
   "optionalDependencies": {}
 }
